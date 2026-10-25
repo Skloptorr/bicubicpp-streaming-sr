@@ -1,0 +1,13 @@
+﻿# Core
+torch==2.6.0
+torchvision
+numpy
+Pillow
+
+# Evaluation
+scikit-image
+scipy
+
+# VapourSynth / znedi3 are external and NOT bundled:
+#   pip install vapoursynth  (or use the portable build)
+#   znedi3 plugin is GPLv2 - install it yourself

@@ -1,0 +1,10 @@
+﻿__pycache__/
+*.pyc
+cache/
+datasets/
+logs/
+out/
+render/
+weights/*.pth
+!weights/*_best.pth
+*.log

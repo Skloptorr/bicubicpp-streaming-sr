@@ -1,0 +1,93 @@
+bicubicpp-streaming-sr -- NOTICE
+===============================
+
+Code:    Apache-2.0 (see LICENSE)
+Weights: non-commercial (see LICENSE-WEIGHTS)
+
+
+1. Bicubic++  --  attribution, not a licence obligation
+   -----------------------------------------------------
+   Paper:  Bilecen & Ayazoglu, "Bicubic++: Slim, Slimmer, Slimmest --
+           Designing an Industry-grade Super-Resolution Network",
+           CVPRW 2023, pp. 1623-1632.  NTIRE 2023 Real-Time SR Challenge,
+           Track 2 (x3), winner.  arXiv:2305.02126
+   Repo:   https://github.com/aselsan-research-imaging-team/bicubic-plusplus
+           (CC BY-NC-SA 4.0)
+
+   NO UPSTREAM CODE AND NO UPSTREAM WEIGHTS ARE INCLUDED HERE.
+
+   The network is an independent implementation written from the paper. Copyright
+   covers expression, not architecture; the model definition here is 14 lines of
+   nn.Conv2d/nn.PixelShuffle that restate a figure from the paper. Nothing was
+   copied, so the upstream licence does not attach to this code.
+
+   Citation is expected as academic practice. See docs/license_analysis.md for
+   the full reasoning.
+
+   If you obtain upstream's pretrained/bicubic_pp_x3.pth yourself to run
+   eval/verify_paper.py, that file is CC BY-NC-SA 4.0 and is not ours to
+   redistribute.
+
+
+2. DIV2K  --  constrains the older checkpoints, not the code
+   ---------------------------------------------------------
+   https://data.vision.ee.ethz.ch/cvl/DIV2K/
+   "This dataset is made available for academic research purpose only. All the
+    images are collected from the Internet, and the copyright belongs to the
+    original owners."
+
+   No DIV2K image data is included, in any form. The dataset grants no right to
+   redistribute and third parties hold the copyright.
+
+   Checkpoints from the earlier DIV2K-era training run were trained on it. Their
+   terms are about use of the data, and say nothing about trained weights; the
+   conservative reading is recorded in LICENSE-WEIGHTS.
+
+   Mirrors of DIV2K sometimes self-label as "apache-2.0". Those labels come from
+   re-uploaders who are not rights holders. Ignore them.
+
+
+3. UVG  --  same situation
+   ----------------------
+   Research-use test sequences used in the newer dataset. No frames included.
+
+
+4. torchvision VGG16 pretrained weights  --  not bundled
+   -----------------------------------------------------
+   https://download.pytorch.org/models/vgg16-397923af.pth
+   Fetched at runtime by torchvision, never committed.
+
+   torchvision says of its own weights: "The pre-trained models provided in this
+   library may have their own licenses or terms and conditions derived from the
+   dataset used for training. It is your responsibility to determine whether you
+   have permission to use the models for your use case."
+
+   These were trained on ImageNet-1K, whose terms restrict use to non-commercial
+   research and education. Do not assume the BSD-3 torchvision licence covers the
+   weights.
+
+
+5. Magpie  --  not distributed
+   ---------------------------
+   https://github.com/Blinue/Magpie   (GPL-3.0)
+   Only the host application that loads the exported HLSL effects. No Magpie code
+   is copied here and no Magpie build is bundled.
+
+
+6. znedi3  --  not distributed
+   ---------------------------
+   https://github.com/sekrit-twc/znedi3   (GPL-2.0, declared in readme.rst)
+   Invoked as an external VapourSynth plugin by eval/nnedi_upscale.py to produce
+   the NNEDI3 comparison. Install it yourself; nothing is linked or bundled.
+
+
+7. ffmpeg / x265 / libvmaf  --  external binaries
+   ---------------------------------------------
+   Called for HEVC round-trips and VMAF scoring. Not bundled. Your build's
+   licence (LGPL-2.1+ or GPL) applies to your copy.
+
+
+8. Evaluation dependencies  --  permissive
+   ---------------------------------------
+   PyTorch (BSD-style), torchvision (BSD-3-Clause), NumPy (BSD), Pillow (HPND),
+   scikit-image (BSD-3-Clause). Nothing here is derived from them.
