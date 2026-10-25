@@ -1,0 +1,27 @@
+﻿cff-version: 1.2.0
+message: "If you use this work, please cite the Bicubic++ paper below."
+title: "bicubicpp-streaming-sr"
+abstract: >-
+  Training, evaluation and shader-export tooling for a Bicubic++-style super
+  resolution model aimed at 1440p to 4K video streaming, plus measurements of
+  perceptual-loss sharpness, CNN chroma fabrication, NNEDI3 sharpness and the
+  value of bicubic versus Lanczos under an acuity-limited metric.
+type: software
+license: Apache-2.0
+references:
+  - type: conference-paper
+    title: "Bicubic++: Slim, Slimmer, Slimmest -- Designing an Industry-grade Super-Resolution Network"
+    authors:
+      - family-names: Bilecen
+        given-names: Bahri Batuhan
+      - family-names: Ayazoglu
+        given-names: Mustafa
+    collection-title: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops"
+    year: 2023
+    start: 1623
+    end: 1632
+    url: "https://arxiv.org/abs/2305.02126"
+    notes: >-
+      NTIRE 2023 Real-Time Super-Resolution Challenge, Track 2 (x3), winning entry.
+      The network architecture used here follows this work; no upstream code or
+      weights are included.

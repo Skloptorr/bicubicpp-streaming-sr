@@ -14,7 +14,7 @@ reporting only "stream" would dismiss the paper's baseline unfairly.
 Metrics are PSNR-Y and SSIM-Y with a border shaved by the scale factor, which
 is the usual SR convention.
 
-    python bench.py --test Z:\Bicubic_src\M_testset_pd\images --scales 1.5 \
+    python bench.py --test path\to\test\images --scales 1.5 \
         --models bicubic,ours:1.5:24,ours:1.5:28 --out res.csv
 """
 import argparse

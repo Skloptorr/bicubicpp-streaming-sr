@@ -1,10 +1,40 @@
-﻿__pycache__/
-*.pyc
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Data and artefacts (never commit; see NOTICE) ---
 cache/
 datasets/
 logs/
 out/
 render/
+testset/
+*.npy
+*.npz
+
+# --- Weights: commit the best checkpoints only ---
 weights/*.pth
 !weights/*_best.pth
+
+# --- Local logs from training/eval runs ---
 *.log
+*.log.err
+
+# --- Editors / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secrets: never commit keys ---
+id_*
+*.pem
+*_ed25519
