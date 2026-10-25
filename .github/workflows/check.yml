@@ -1,0 +1,31 @@
+﻿name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Byte-compile every module
+        run: python -m compileall -q train export eval data
+
+      - name: Fail on any absolute Windows path left in the tree
+        run: |
+          if grep -rn --include='*.py' -E 'r"[A-Z]:\\\\' train export eval data; then
+            echo "::error::absolute Windows path found; use an environment variable instead"
+            exit 1
+          fi
+          echo "no absolute Windows paths"
+
+      - name: Check the licence files are present
+        run: |
+          test -f LICENSE && test -f LICENSE-WEIGHTS && test -f NOTICE
+          echo "licence files present"
