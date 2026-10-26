@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""How much does the CNN's gain depend on how damaged the input is?
 
 This is the question that decides whether the model belongs in Moonlight. The

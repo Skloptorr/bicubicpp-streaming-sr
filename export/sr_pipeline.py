@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """4K120 / 1440p120 SR pipeline.
 
   4K PNG sequence (ground truth, 120 fps)

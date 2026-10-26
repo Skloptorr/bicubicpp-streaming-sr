@@ -75,6 +75,9 @@ aggressive upscale of clean content:
 
 **Code: Apache-2.0. Weights: non-commercial.**
 
+Copyright © 2026 Skloptorr. If you redistribute this code or anything derived from
+it, keep the copyright notice and `NOTICE` intact (Apache-2.0 §4).
+
 The split is deliberate. The network is an independent implementation of the
 Bicubic++ paper — 14 lines of `nn.Conv2d`/`nn.PixelShuffle` restating a figure
 from a paper. No upstream source and no upstream weights are included or derived

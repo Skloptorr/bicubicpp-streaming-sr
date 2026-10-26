@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Run ONE model over a scheme's decoded 1440p frames, writing 4K output + PSNR.
 
 usage: run_model.py <scheme_dir> <model> <truth_dir> [limit]

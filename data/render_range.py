@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Render a frame range of the loaded .blend as a PNG sequence.
 
     blender -b scene.blend --python render_range.py -- <outdir> <start> <end> [cam] [pct] [samples]

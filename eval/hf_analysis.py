@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """How much high-frequency detail survives the codec, and is the SR output
 actually *restored* or merely *invented*?
 

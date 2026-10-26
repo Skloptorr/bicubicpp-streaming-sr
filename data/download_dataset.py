@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Parallel segmented downloader for DIV2K (or any range-supporting URL).
 
 Splits the file into N ranges fetched concurrently by threads, writes them into a

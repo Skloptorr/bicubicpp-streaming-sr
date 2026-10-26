@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Does the trained model still win when the LR has HEVC artifacts?
 
 Builds a codec-degraded version of the DIV2K validation pairs at the same

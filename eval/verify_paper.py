@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""Put the released Bicubic++ x3 weights on the same val patches as our models.
 
 This is the only comparison that answers "are we at parity with the paper team".

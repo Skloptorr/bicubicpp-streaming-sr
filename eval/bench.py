@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""Benchmark harness: bicubic vs Bicubic++ variants on a license-clean test set.
 
 Two degradation protocols, because the models are not trained the same way:

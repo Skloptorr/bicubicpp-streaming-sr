@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Evaluate the 4-channel (RGB + local-std) model on a comparison scheme.
 
 usage: run_model_cond.py <scheme_dir> <model_name> <truth_dir> [limit]

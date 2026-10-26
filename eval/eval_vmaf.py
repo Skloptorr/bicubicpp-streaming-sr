@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""Score our models with VMAF as well as PSNR/SSIM.
 
 Why this exists: at the AIM 2024 Efficient VSR challenge a Bicubic++-derived

@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Pre-cut patch cache: LR 128x128 / HR 192x192, uint8 memmap.
 
 800 DIV2K images x 25 random crops = 20,000 pairs (~3.2 GB). Augmentation is

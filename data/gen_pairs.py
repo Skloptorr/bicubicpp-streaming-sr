@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Build the 1.5x training/eval pairs from DIV2K HR.
 
 HR (2040xN) -> LR (1360xN') with bicubic 1/1.5. Only LR is written; the HR crop

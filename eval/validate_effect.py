@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Compile every pass of a MagpieFX effect with fxc to catch broken HLSL.
 
 Magpie splits an effect at `//!PASS` and compiles each pass as its own compute

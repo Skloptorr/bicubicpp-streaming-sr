@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Patch cache with MIXED degradation: clean bicubic + HEVC round-trip.
 
     python prep_patches_mix.py [hevc_ratio] [per_image] [crf_min] [crf_max]

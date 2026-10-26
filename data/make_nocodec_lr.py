@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Generate a no-codec LR array from the cleaned cache HR patches.
 
 The paper trains on plain bicubic downscales with no compression damage. Our

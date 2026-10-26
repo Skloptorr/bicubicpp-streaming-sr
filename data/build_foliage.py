@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Procedural foliage scene: grass + leaves, wind-driven, for SR test footage.
 
 No external assets: every blade/leaf is generated here, so this runs right after

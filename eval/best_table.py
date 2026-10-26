@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""Best-checkpoint table for a sweep, with multi-seed aggregation.
 
 Each (scale, channels) configuration may have been trained with several seeds.

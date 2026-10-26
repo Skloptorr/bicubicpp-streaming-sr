@@ -7,6 +7,8 @@ abstract: >-
   perceptual-loss sharpness, CNN chroma fabrication, NNEDI3 sharpness and the
   value of bicubic versus Lanczos under an acuity-limited metric.
 type: software
+authors:
+  - name: "Skloptorr"
 license: Apache-2.0
 references:
   - type: conference-paper

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""Black-and-white text fixtures: the easiest way to see SR go wrong.
 
 Text is the harshest test for a super-resolution network. Every stroke edge is a

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""Train one of the 16 models (4 scales x 4 channel tiers) from the shared cache.
 
 Same recipe as the original train_v2.py (MSE, Adam 5e-4 -> 5e-6 cosine) but on

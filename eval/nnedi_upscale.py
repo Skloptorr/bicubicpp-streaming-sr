@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""NNEDI3 upscale 2560x1440 -> 3840x2160 through VapourSynth + znedi3.
 
 NNEDI3 is the strongest classical edge-directed interpolator in the Magpie effect

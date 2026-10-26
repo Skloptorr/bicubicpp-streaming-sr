@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""Export faithful SR comparison folders from captured gameplay frames.
 
 The first version of this skipped the codec step, and the model appeared to

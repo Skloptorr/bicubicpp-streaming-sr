@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Export the 4-channel (RGB + local-std) checkpoint as a MagpieFX effect.
 
 Adds one pass that computes the same 3x3 luma local-std map used in training,

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""Python ports of Magpie's CAS and SMAA-Medium for offline comparison renders.
 
 CAS is an exact port of `effects/CAS/CAS.hlsl` (itself a port of ffx-cas):

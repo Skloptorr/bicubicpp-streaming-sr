@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Render the downloaded Blender scene offline, frame by frame.
 
     blender -b forest.blend --python render_scene.py -- <outdir> <frames> <engine> <scale>

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""VGG16 perceptual loss without torchvision.
 
 The env has no torchvision and no lpips, but the perceptual loss only needs the

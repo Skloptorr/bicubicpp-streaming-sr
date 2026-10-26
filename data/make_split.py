@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 r"""Generate the frozen train/val split for a cache, skipping degenerate val patches.
 
 The split is per SOURCE IMAGE (a 4K tile yields ~220 neighbouring patches, so a

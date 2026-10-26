@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Skloptorr
+
 """Export a trained checkpoint as a MagpieFX effect.
 
     python export_effect.py <ckpt.pth> <out_name> [effects_dir]
